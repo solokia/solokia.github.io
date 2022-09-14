@@ -30,8 +30,8 @@ jobs:
           ls
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist/spa
+          branch: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BASE_BRANCH: main
-          branch: gh-pages
-          folder: dist/spa
