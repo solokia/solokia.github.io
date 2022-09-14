@@ -23,7 +23,10 @@ jobs:
       - name: Install
         run: npm ci
       - name: Build
-        run: npm run build
+        run: |
+          npm run build
+          ls
+          cd dist ls
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         env:
