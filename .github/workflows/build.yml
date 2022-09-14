@@ -26,7 +26,8 @@ jobs:
         run: |
           npm run build
           ls
-          cd dist ls
+          cd dist 
+          ls
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         env:
