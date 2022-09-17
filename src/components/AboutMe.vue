@@ -31,17 +31,20 @@
             <div>
               <p>
                 I graduate from Nanyang Technological University from Singapore
-                with a degree in Computer Science. Upon graduation, I started a
-                life with start-ups, wearing multiple hats learning many things
-                . To me Tech is a compliment to life. It is there to simplify
-                life and remove all the mundane work that you need to do over
-                and over again.
+                with a degree in Computer Science. Upon graduation, I began my
+                career by founding a startup, wearing multiple hats while
+                learning many things.
               </p>
               <p>
-                At the time of writing this, my focus will be to grow
-                technically, learning the philosophy behind different designs,
+                To me Tech is a compliment to life. It exists to simplify life
+                and remove all the mundane work that you need to do over and
+                over again.
+              </p>
+              <p>
+                At time of writing, my focus will be to grow technically,
+                learning the philosophy behind different designs, as well as
                 getting out of the trough of disillusionment to have the
-                confidence in approving pull requests
+                confidence in approving pull requests.
               </p>
             </div>
             <q-separator />
@@ -78,7 +81,7 @@ export default {
     TechStackChips,
   },
   setup() {
-    const top = ` My name is Solomon Sim. If you haven't notice, Front-end design isn't
+    const top = ` My name is Solomon Sim. If you haven't notice already, Front-end Design isn't
           really my kind of thing. While I believe that if you can code in a
           single language, you can code in any language, CSS is a different ball
           game for me. I would rather spend the time solving different challenges than centering a <div>`;
