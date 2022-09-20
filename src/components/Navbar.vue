@@ -5,7 +5,7 @@
     </div>
     <div class="q-pa-lg content-end row">
       <router-link to="/about" class="q-mx-md">About</router-link>
-      <router-link to="/project" class="q-mx-md">Projects</router-link>
+      <router-link to="/project" class="q-mx-md">Projects(WIP)</router-link>
     </div>
   </div>
 </template>
